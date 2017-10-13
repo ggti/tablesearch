@@ -1,6 +1,6 @@
 {
   "name": "tablesearch",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Simple utility to dynamically search any table.",
   "main": "tablesearch.js",
   "scripts": {
@@ -10,6 +10,10 @@
     "table",
     "search"
   ],
+  "repository": { 
+    "type" : "git", 
+    "url" : "https://github.com/ggti/tablesearch.git"
+  },
   "author": "GGTI",
   "license": "MIT"
 }
