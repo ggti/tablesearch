@@ -22,8 +22,33 @@ import tablesearch from 'tablesearch';
 ```
 
 Call the tablesearch function passing a table id and a search textbox id
+```html
+<input id="my-search" type="text" />
+<table id="my-table">
+  <thead>
+    <tr>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Company</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>John</td>
+      <td>Doe</td>      
+      <td>ACME, Inc.</td>
+    </tr>
+    <tr>
+      <td>Jane</td>
+      <td>Smith</td>      
+      <td>Initech</td>
+    </tr>
+  </tbody>
+</table>
+```
+
 ```javascript
-tablesearch('table-id', 'search-id');
+tablesearch('my-table', 'my-search');
 ```
 
 ## Contributing
