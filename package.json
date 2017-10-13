@@ -1,0 +1,15 @@
+{
+  "name": "tablesearch",
+  "version": "0.1.0",
+  "description": "Simple utility to dynamically search any table.",
+  "main": "tablesearch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "table",
+    "search"
+  ],
+  "author": "GGTI",
+  "license": "MIT"
+}
